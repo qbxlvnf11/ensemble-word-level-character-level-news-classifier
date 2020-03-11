@@ -5,15 +5,16 @@ Blog URL: https://blog.naver.com/qbxlvnf11
 
 LinkedIn: https://www.linkedin.com/in/taeyong-kong-016bb2154
 
-- Upload proposed Mixture-of-Experts (ME) model code
+- Upload proposed Mixture-of-Experts (ME) model optimized to learn ensemble rule code
 - Upload code as a Jupiter Notebook file (.ipynb) for immediate understanding
 
 .
 
 - Proposed Mixture-of-Experts (ME) model
   - For news categorization
-  - Strong combination of each single model: concat layer of single classifiers & linear combination
-  - Ensemble of word-level subtask embedding space and character-level subtask embedding space
+  - Design for learning ensemble rule of various feature spaces
+  - Each of the single classifier learns each of the distinct latent feature space of char-acter embedding space and word embedding space, and gate network combines these single classifiers
+  - To be optimized to learning ensemble rule, gate network of proposed ME performs linear combination directly to concatenated layers of each single classifiers and is not trained by using input data
   - Joint training of pretrained single classifier and gate network
 
 Datasets
