@@ -5,7 +5,7 @@ Blog URL: https://blog.naver.com/qbxlvnf11
 
 LinkedIn: https://www.linkedin.com/in/taeyong-kong-016bb2154
 
-- Upload proposed Mixture-of-Experts (ME) model optimized to learn ensemble rule
+- Proposed Mixture-of-Experts (ME) model optimized to learn ensemble rule
 - Upload code as a Jupiter Notebook file (.ipynb) for immediate understanding
 
 .
