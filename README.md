@@ -15,7 +15,7 @@ LinkedIn: https://www.linkedin.com/in/taeyong-kong-016bb2154
   - Design for learning ensemble rule of various feature spaces
   - Each of the single classifier learns each of the distinct latent feature space of character embedding space and word embedding space, and gate network combines these single classifiers
   - To be optimized to learning ensemble rule, gate network of proposed ME performs linear combination directly to concatenated layers of each single classifiers and is not trained by using input data
-  - Be trained with transfer learning using pretrained two single classifiers learning latent features at each of feature spaces to maximize ensemble effect.
+  - To maximize ensemble effect, after two single classifiers is pretrained by learning latent features at each of feature spaces, entire ME model composed with gate network and two single classifiers is trained.
 
 Datasets
 =============
