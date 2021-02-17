@@ -4,8 +4,8 @@
 Description
 =============
 
-#### - News classifier with two feature spaces (word-level & character-level)
-#### - Upload code as a Jupiter Notebook file (.ipynb) for immediate understanding
+##### - News classifier with two feature spaces (word-level & character-level)
+##### - Upload code as a Jupiter Notebook file (.ipynb) for immediate understanding
 
 Datasets
 =============
