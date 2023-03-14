@@ -18,7 +18,7 @@ Contents
 #### - [Train & Evaluate Ensemble News Classifier of Words-level & Character-level](https://github.com/qbxlvnf11/ensemble-word-level-character-level-news-classifier/blob/master/Ensemble-word-character-news-classifier.ipynb)
   - Analysis of News Aggregator Dataset
   - Two level language preproecessing 
-  - Single Classifier of two level
+  - Single classifier of two level
   - Ensemble two single classifier
   - Train & Evaluation: optimization, ROC curve, Confusion matrix etc.
 
