@@ -4,10 +4,10 @@ Description
 #### - Words-level & Character-level news classifier
   - Words-level news classifier
     - Input: word-level faeture from Word tokenizer
-    - Conv1D-base-model
+    - Conv1D-based-model
   - Character-level news classifier
     - Input: character-level faeture from Character tokenizer
-    - Conv1D-base-model
+    - Conv1D-based-model
     
 #### - Ensemble of two input feature spaces
   - Concatenating two layer of each classifier and FC
