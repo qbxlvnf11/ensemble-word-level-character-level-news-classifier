@@ -1,11 +1,26 @@
-
-
-
 Description
 =============
 
-#### - News classifier with two feature spaces (word-level & character-level)
-#### - Upload code as a Jupiter Notebook file (.ipynb) for immediate understanding
+#### - Words-level & Character-level news classifier
+  - Words-level news classifier
+    - Input: word-level faeture from Word tokenizer
+    - Conv1D-base-model
+  - Character-level news classifier
+    - Input: character-level faeture from Character tokenizer
+    - Conv1D-base-model
+    
+#### - Ensemble of two input feature spaces
+  - Concatenating two layer of each classifier and FC
+
+Contents
+=============
+
+#### - [Train & Evaluate Ensemble News Classifier of Words-level & Character-level](https://github.com/qbxlvnf11/ensemble-word-level-character-level-news-classifier/blob/master/Ensemble-word-character-news-classifier.ipynb)
+  - Analysis of News Aggregator Dataset
+  - Two level language preproecessing 
+  - Single Classifier of two level
+  - Ensemble two single classifier
+  - Train & Evaluation: optimization, ROC curve, Confusion matrix etc.
 
 Datasets
 =============
@@ -13,12 +28,6 @@ Datasets
 #### - News Aggregater
 
 https://www.kaggle.com/uciml/news-aggregator-dataset
-
-
-References
-=============
-
-Editing...
 
 
 Author
