@@ -22,6 +22,8 @@ Contents
   - Ensemble two single classifier
   - Train & Evaluation: optimization, ROC curve, Confusion matrix etc.
 
+<img src="https://user-images.githubusercontent.com/52263269/224953850-93f64d16-0d93-4bae-a750-c0beee15f240.png" width="35%"></img>
+
 Datasets
 =============
 
